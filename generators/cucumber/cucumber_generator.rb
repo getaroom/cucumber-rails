@@ -6,6 +6,14 @@ class CucumberGenerator < Rails::Generator::Base
 
   attr_reader :language, :template_dir
 
+  def driver
+    'capybara'
+  end
+
+  def framework
+    'rspec-rails'
+  end
+
   def initialize(runtime_args, runtime_options = {})
     super
     @language = @args.empty? ? 'en' : @args.first

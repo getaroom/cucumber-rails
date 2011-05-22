@@ -1,3 +1,5 @@
+require 'rack/test'
+
 module Cucumber #:nodoc:
   module Rails #:nodoc:
     class World < ActionController::IntegrationTest #:nodoc:

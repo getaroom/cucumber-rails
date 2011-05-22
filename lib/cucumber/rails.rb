@@ -1,4 +1,8 @@
-require 'rails'
+begin
+  require 'rails'
+rescue LoadError
+end
+
 if Rails.version.to_f < 3.0
   require 'cucumber/rails2'
 else
