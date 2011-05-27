@@ -100,7 +100,7 @@ module Cucumber
       end
 
       def rails2?
-        defined?(Rails::Generator::Base) # In Rails3 it's Rails::Generators::Base (plural s)
+        ::Rails.version.to_f < 3.0
       end
 
       def embed_file(source, indent='')
