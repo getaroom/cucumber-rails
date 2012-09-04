@@ -9,7 +9,7 @@ module Cucumber
       'rack-test'         => '>= 0.5.7',
       'nokogiri'          => '>= 1.4.4',
       'rails'             => '>= 3.0.7',
-      'capybara'          => '>= 1.0.0.beta1',
+      'capybara'          => '>= 1.0.0',
       'factory_girl'      => '>= 2.0.0.beta2',
       'rspec'             => '>= 2.6.0.rc6',
       'rspec-rails'       => '>= 2.2.0',
